@@ -10,18 +10,18 @@ const routes: Routes = [
     pathMatch: 'full'
   },
   {
-    path: '**',
-    redirectTo: '/home',
-    pathMatch: 'full'
-  },
-  {
     path: 'home',
     component: HomeComponent
   },
   {
     path: 'perfil',
     component: PerfilComponent
-  }
+  },
+  {
+    path: '**',
+    redirectTo: '/home',
+    pathMatch: 'full'
+  },
 ];
 
 @NgModule({
