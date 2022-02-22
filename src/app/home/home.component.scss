@@ -1,0 +1,13 @@
+div{
+  background-color: white;
+  display: inline-block;
+  padding: 1.2em;
+  border-radius: 11%;
+
+  &:hover {
+    background-color: black;
+    a{
+      color: white;
+    }
+  }
+}
