@@ -1,1 +1,25 @@
-<p>perfil works!</p>
+<div class="profile-card">
+  <div class="card-header">
+    <div class="pic">
+      <img [src]="user.foto" alt="">
+    </div>
+    <div class="name">
+      {{user.nombre}}
+    </div>
+    <div class="desc">
+      {{user.descripcion}}
+    </div>
+  </div>
+  <div class="card-footer">
+    <div class="numbers">
+      <div class="item">
+        <span>{{user.publicaciones}}</span>
+        Publicaciones
+      </div>
+      <div class="item">
+        <span>{{user.trabajos}}</span>
+        Trabajos
+      </div>
+    </div>
+  </div>
+</div>

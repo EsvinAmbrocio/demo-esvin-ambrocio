@@ -1,4 +1,5 @@
 export class User{
+  nombre:string
   descripcion:string
   foto:string;
   online: boolean;
@@ -6,6 +7,7 @@ export class User{
   trabajos: number;
 
   constructor(){
+    this.nombre = ""
     this.descripcion = "";
     this.foto = "";
     this.online = false;
